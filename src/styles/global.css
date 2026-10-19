@@ -1,0 +1,145 @@
+
+/* Zenitha — Hero heading */
+@font-face {
+  font-family: "Zenitha";
+  src: url('/fonts/ZenithaClassic.otf') format("opentype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*---------Newsreader — Section headings--------*/
+@font-face {
+  font-family: "Newsreader";
+  src: url("../assets/fonts/Newsreader_24pt-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+/*-------------Inter — Body and UI text----------*/
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter_28pt-Light.ttf")
+    format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url('/fonts/Inter_28pt-Regular.woff2') format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter_28pt-Medium.ttf")
+    format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter_28pt-SemiBold.ttf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("../assets/fonts/Inter_28pt-Bold.ttf")
+    format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+@theme {
+  --font-Zenitha: "Zenitha", serif;
+  --font-newsreader: "Newsreader", serif;
+  --font-inter: "Inter", sans-serif;
+
+  --color-primary: #9C4940;
+  --color-secondary: #563632;
+  --color-ink: #844F49;
+  --color-button: #D0685B;
+  --color-hover-button: #C55344;
+  --color-hover-text: #F9EEEB;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  background-color: #FFFAFA;
+}
+
+@keyframes reveal-up {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+        filter: blur(8px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+        filter: blur(0);
+    }
+}
+
+[data-reveal="up"] {
+    opacity: 0;
+    transform: translateY(15px);
+    filter: blur(8px);
+}
+
+[data-reveal="up"].is-revealed {
+    animation: reveal-up 1500ms cubic-bezier(0.22, 1, 0.36, 1) both;
+}
+
+[data-reveal="up"].is-revealed[data-reveal-delay="1"] {
+    animation-delay: 200ms;
+}
+[data-reveal="up"].is-revealed[data-reveal-delay="2"] {
+    animation-delay: 400ms;
+}
+
+[data-reveal="up"].is-revealed[data-reveal-delay="3"] {
+    animation-delay: 600ms;
+}
+[data-reveal="up"].is-revealed[data-reveal-delay="4"] {
+    animation-delay: 800ms;
+}
+[data-reveal="up"].is-revealed[data-reveal-delay="5"] {
+    animation-delay: 1000ms;
+}
+
+[data-reveal="up"].is-revealed[data-reveal-delay="6"] {
+    animation-delay: 1200ms;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    [data-reveal="up"],
+    [data-reveal="up"].is-revealed {
+        animation: none;
+        opacity: 1;
+        transform: none;
+        filter: none;
+    }
+}

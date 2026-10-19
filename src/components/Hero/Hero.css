@@ -1,0 +1,11 @@
+.HeroSection {
+  background-image: url('/images/PeloraWallpaper.webp');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+@media (max-width: 639px) {
+    .HeroSection {
+        background-position: 42% center;
+    }
+}
