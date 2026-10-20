@@ -27,7 +27,7 @@ function Hero() {
                 <button 
                 data-reveal="up"
                 data-reveal-delay="2"
-                className="group relative cursor-pointer mt-6.5 flex h-13 w-full max-w-48 sm:max-w-57 md:max-w-61 items-center justify-center gap-2 rounded-[43px] border-0 bg-button text-[11px] md:text-[13px] font-medium uppercase text-[#FFFAFA] transition-colors duration-400 hover:bg-hover-button sm:h-14 sm:text-[14px] lg:h-15 lg:w-61 lg:text-[15px]">
+                className="group relative cursor-pointer mt-6.5 flex h-13 w-full max-w-45 sm:max-w-57 md:max-w-61 items-center justify-center gap-2 rounded-[43px] border-0 bg-button text-[10.5px] md:text-[13px] font-medium uppercase text-[#FFFAFA] transition-colors duration-400 hover:bg-hover-button sm:h-14 sm:text-[14px] lg:h-15 lg:w-61 lg:text-[15px]">
                     <span>Shop the Collection</span>
                     <span className="inline-block transition-transform duration-300 ease-in-out group-hover:translate-x-0.5">→</span>
                 </button>
