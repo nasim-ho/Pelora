@@ -72,7 +72,7 @@ function BestSellers() {
                 </h1>
 
                 {/*------------Products Slider-----------*/}
-                <div className="relative mt-6">
+                <div className="relative mt-5 md:mt-6">
                     <button
                         type="button"
                         className="best-sellers-nav best-sellers-prev"
@@ -99,7 +99,7 @@ function BestSellers() {
                         }}
                         breakpoints={{
                             0: {
-                                slidesPerView: 1,
+                                slidesPerView: 2,
                                 spaceBetween: 16,
                             },
                             480: {

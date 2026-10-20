@@ -3,7 +3,7 @@ import SocialMedia from '../../assets/icons/SocialMedia.webp';
 
 function Footer() {
     return (
-        <section className="mt-10 bg-primary/10 px-4 pt-6 sm:px-6 md:px-10 lg:mt-15 lg:px-13">
+        <section className="mt-15 md:mt-10 bg-primary/10 px-4 pt-6 sm:px-6 md:px-10 lg:mt-15 lg:px-13">
             <div className="mt-6 grid grid-cols-1 gap-y-6 sm:mt-8 lg:mt-10 lg:grid-cols-3">
                 <div className="flex min-w-0 justify-center lg:justify-start">
                     <img src={Logo}

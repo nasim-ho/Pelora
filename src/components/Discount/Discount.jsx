@@ -9,7 +9,7 @@ function Discount() {
                 <div className="w-[75%] py-6 sm:w-[70%] sm:py-7 md:w-[65%] lg:w-auto lg:py-9">
                     <h1
                         data-reveal="up"
-                        className="cursor-default font-newsreader text-[30px] leading-tight text-primary sm:text-[36px] md:text-[42px] lg:text-[53px]">
+                        className="cursor-default font-newsreader text-[26px] leading-tight text-primary sm:text-[36px] md:text-[42px] lg:text-[53px]">
                         Up to 25% Off
                     </h1>
                     <p

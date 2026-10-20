@@ -4,7 +4,7 @@ import Why3 from '../../assets/icons/Why3.webp';
 
 function WhyChoose() {
     return (
-        <section className="px-6 md:px-10 lg:px-19.75 pt-13">
+        <section className="px-6 md:px-10 lg:px-19.75 pt-10 md:pt-13">
 
 
             <h2
@@ -14,7 +14,7 @@ function WhyChoose() {
             </h2>
 
             {/*--------Features{/*--------*/}
-            <ul className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-0 mt-15 items-center">
+            <ul className="grid grid-cols-1 md:grid-cols-3 gap-8 md:gap-0 mt-10 md:mt-15 items-center">
 
                 {/*{/*--------Column 1{/*--------*/}
                 <li
