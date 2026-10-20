@@ -20,20 +20,20 @@ function Hero() {
                 <p
                     data-reveal="up"
                     data-reveal-delay="1"
-                    className="mt-5 w-full max-w-90 lg:max-w-100 cursor-default text-[14px] leading-relaxed text-secondary sm:text-[16px] lg:w-100 lg:text-[18px]">
+                    className="mt-4 w-full max-w-60 md:max-w-100 lg:max-w-100 cursor-default text-[14px] leading-relaxed text-secondary sm:text-[16px] lg:w-100 lg:text-[18px]">
                     Thoughtfully crafted skincare that nourishes,
                     hydrates, and brings out your skin’s natural glow
                 </p>
                 <button 
                 data-reveal="up"
                 data-reveal-delay="2"
-                className="group relative cursor-pointer mt-7 flex h-13 w-full max-w-52 md:max-w-61 items-center justify-center gap-2 rounded-[43px] border-0 bg-button text-[13px] font-medium uppercase text-[#FFFAFA] transition-colors duration-400 hover:bg-hover-button sm:h-14 sm:text-[14px] lg:h-15 lg:w-61 lg:text-[15px]">
+                className="group relative cursor-pointer mt-6.5 flex h-13 w-full max-w-48 sm:max-w-57 md:max-w-61 items-center justify-center gap-2 rounded-[43px] border-0 bg-button text-[11px] md:text-[13px] font-medium uppercase text-[#FFFAFA] transition-colors duration-400 hover:bg-hover-button sm:h-14 sm:text-[14px] lg:h-15 lg:w-61 lg:text-[15px]">
                     <span>Shop the Collection</span>
                     <span className="inline-block transition-transform duration-300 ease-in-out group-hover:translate-x-0.5">→</span>
                 </button>
             </div>
             {/*--------Features--------*/}
-            <ul className="mt-8 grid w-full max-w-52 grid-cols-3 items-center gap-1 sm:mt-10 sm:w-auto sm:max-w-none sm:flex sm:gap-5 lg:gap-9">
+            <ul className="mt-6.5 grid w-full max-w-52 grid-cols-3 items-center gap-1 sm:mt-10 sm:w-auto sm:max-w-none sm:flex sm:gap-5 lg:gap-9">
                 <li 
                 data-reveal="up"
                 data-reveal-delay="4"
